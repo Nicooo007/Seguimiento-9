@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.header {
+    background-color: #dca5ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.chat-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.nicolle-btn {
+    background-color: #8a2be2; /* Morado */
+}
+
+.majo-btn {
+    background-color: #ff69b4; /* Rosado */
+}
+
+.chat-box {
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+.nicolle {
+    background-color: #8a2be2;
+    color: white;
+    text-align: left;
+    margin-right: auto;
+}
+
+.majo {
+    background-color: #ff69b4;
+    color: white;
+    text-align: right;
+    margin-left: auto;
+}
+
+.chat-input {
+    display: flex;
+    padding: 15px;
+    background-color: #eee;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Azul */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #ff0000; /* Rojo */
+    margin-left: 10px;
+}

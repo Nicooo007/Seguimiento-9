@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Nicolle y Majo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Chat Nicolle y Majo</h1>
+    </header>
+
+    <div class="chat-container">
+        <div class="buttons">
+            <button class="btn nicolle-btn">Nicolle</button>
+            <button class="btn majo-btn">Majo</button>
+        </div>
+
+        <div class="chat-box">
+            <div class="message nicolle">Hola</div>
+            <div class="message majo">Hola, ¿Cómo estás?</div>
+            <div class="message nicolle">Muy bien, ¿Cómo vas con el laboratorio del chat?</div>
+            <div class="message majo">¡Bien! Ya estoy a punto de terminarlo</div>
+            <div class="message nicolle">¿Y tú?</div>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="inputMessage" placeholder="Escribe aquí..." />
+            <button onclick="sendMessage()">Enviar</button>
+            <button class="delete-btn" onclick="deleteChat()">Eliminar Chat</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
